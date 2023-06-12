@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', 'sans-serif';
+    background: #f0f2f5;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.main-section {
+    padding-block: 140px;
+    padding-inline: 230px;
+}
+
+.logo-image img {
+    width: 260px;
+}
+
+.header-text h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.right-div {
+    padding: 20px;
+}
+
+.right-form {
+    background: #fff;
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0px 0px 2px 2px #dcddde;
+}
+
+.form-input {
+    width: 100%;
+    height: 30px;
+    margin-block: 6px;
+    padding-inline: 10px;
+    font-size: 14px;
+}
+
+.submit-button {
+    background: #1877f2;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.submit-button:hover {
+    background: #fff;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.login-form input {
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    height: 50px;
+    font-size: 17px;
+    line-height: 40px
+}
+
+.login-form input:focus {
+    border: 1px solid #1877f2 !important;
+}
+
+.forget-password {
+    text-align: center;
+    padding-block: 20px;
+}
+
+.forget-password a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #1877f2;
+}
+
+.forget-password a:hover {
+    text-decoration: underline;
+    transition: 0.2s ease-out;
+}
+
+.border-bottom-line {
+    border-bottom: 2px solid #f3f3f3;
+    margin-bottom: 10px;
+}
+
+.create-account {
+    padding: 10px 60px;
+}
+
+.create-account-button {
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.create-account-button:hover {
+    color: #42b72a;
+    background-color: #fff;
+    font-size: 18px;
+    border: 1px solid #42b72a;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.left-div {
+    flex-direction: column;
+    padding-block: 60px;
+    gap: 5px;
+}
+
+.form-footer {
+    padding: 20px;
+}
+
+.form-footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-footer a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
